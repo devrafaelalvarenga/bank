@@ -1,4 +1,4 @@
-class Conta(Banco):
+class Conta():
     def __init__(self, clientes: str, numero: str, saldo: int = 0):
         self.clientes = clientes  # nome do cliente
         self.numero = numero  # numero da conta
